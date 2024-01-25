@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>66a6e868-f3b4-4199-99df-ad547674cc10</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python2024.py</StartupFile>
+    <StartupFile>Literales.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Literales.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Python2024.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
